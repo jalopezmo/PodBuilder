@@ -48,6 +48,7 @@ plugin 'podbuilder-rome', {  dsym: true, configuration: '%%%build_configuration%
   installer.pods_project.save
 }}
 
+DEFAULT_SWIFT_VERSION = '5'
 platform :%%%platform_name%%%, '%%%deployment_version%%%'
 
 # Targets
